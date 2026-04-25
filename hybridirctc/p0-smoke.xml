@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="P0 Smoke Suite">
+
+<listeners>
+<listener class-name="listeners.TestListener"/>
+</listeners>
+
+<test name="Critical P0 Tests">
+
+<groups>
+<run>
+<include name="p0"/>
+</run>
+</groups>
+
+<classes>
+<class name="tests.LoginTest"/>
+<class name="tests.SearchValidationTest"/>
+<class name="tests.SeatAvailabilityTest"/>
+<class name="tests.PassengerDetailsTest"/>
+</classes>
+
+</test>
+
+</suite>

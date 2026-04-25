@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-04-25T13:14:25 IST" name="All Suite" finished-at="2026-04-25T13:16:40 IST" duration-ms="135698">
+    <groups>
+      <group name="p0">
+        <method signature="LoginTest.verifyLogin()[pri:1, instance:tests.LoginTest@5a7fe64f]" name="verifyLogin" class="tests.LoginTest"/>
+        <method signature="SeatAvailabilityTest.verifySeat()[pri:3, instance:tests.SeatAvailabilityTest@24105dc5]" name="verifySeat" class="tests.SeatAvailabilityTest"/>
+        <method signature="PassengerDetailsTest.verifyPassengerDetails()[pri:4, instance:tests.PassengerDetailsTest@5167f57d]" name="verifyPassengerDetails" class="tests.PassengerDetailsTest"/>
+      </group> <!-- p0 -->
+    </groups>
+    <test started-at="2026-04-25T13:14:25 IST" name="All Tests" finished-at="2026-04-25T13:16:40 IST" duration-ms="135698">
+      <class name="tests.SeatAvailabilityTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SeatAvailabilityTest@24105dc5]" started-at="2026-04-25T13:15:59 IST" name="setup" finished-at="2026-04-25T13:16:14 IST" duration-ms="14604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySeat()[pri:3, instance:tests.SeatAvailabilityTest@24105dc5]" started-at="2026-04-25T13:16:14 IST" name="verifySeat" finished-at="2026-04-25T13:16:14 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySeat -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SeatAvailabilityTest@24105dc5]" started-at="2026-04-25T13:16:14 IST" name="tearDown" finished-at="2026-04-25T13:16:25 IST" duration-ms="10492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SeatAvailabilityTest -->
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@5a7fe64f]" started-at="2026-04-25T13:14:25 IST" name="setup" finished-at="2026-04-25T13:14:37 IST" duration-ms="12596" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogin()[pri:1, instance:tests.LoginTest@5a7fe64f]" started-at="2026-04-25T13:14:38 IST" name="verifyLogin" finished-at="2026-04-25T13:14:58 IST" duration-ms="20155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@5a7fe64f]" started-at="2026-04-25T13:15:00 IST" name="tearDown" finished-at="2026-04-25T13:15:20 IST" duration-ms="19940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.BookingTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BookingTest@2438dcd]" started-at="2026-04-25T13:15:26 IST" name="setup" finished-at="2026-04-25T13:15:50 IST" duration-ms="24515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPassengerBooking()[pri:0, instance:tests.BookingTest@2438dcd]" started-at="2026-04-25T13:15:52 IST" name="verifyPassengerBooking" finished-at="2026-04-25T13:15:54 IST" duration-ms="1915" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPassengerBooking -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BookingTest@2438dcd]" started-at="2026-04-25T13:15:54 IST" name="tearDown" finished-at="2026-04-25T13:15:59 IST" duration-ms="5415" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BookingTest -->
+      <class name="tests.PassengerDetailsTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.PassengerDetailsTest@5167f57d]" started-at="2026-04-25T13:16:25 IST" name="setup" finished-at="2026-04-25T13:16:39 IST" duration-ms="14634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyPassengerDetails()[pri:4, instance:tests.PassengerDetailsTest@5167f57d]" started-at="2026-04-25T13:16:39 IST" name="verifyPassengerDetails" finished-at="2026-04-25T13:16:40 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPassengerDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.PassengerDetailsTest@5167f57d]" started-at="2026-04-25T13:16:40 IST" name="tearDown" finished-at="2026-04-25T13:16:40 IST" duration-ms="857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.PassengerDetailsTest -->
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.SearchTest@7975d1d8]" started-at="2026-04-25T13:15:20 IST" name="setup" finished-at="2026-04-25T13:15:25 IST" duration-ms="4582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySearch()[pri:0, instance:tests.SearchTest@7975d1d8]" started-at="2026-04-25T13:15:25 IST" name="verifySearch" finished-at="2026-04-25T13:15:25 IST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchTest@7975d1d8]" started-at="2026-04-25T13:15:25 IST" name="tearDown" finished-at="2026-04-25T13:15:26 IST" duration-ms="856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- All Tests -->
+  </suite> <!-- All Suite -->
+</testng-results>
